@@ -1,0 +1,10 @@
+sign_up:
+  path: /
+  controller: user.sign_up
+  method: POST
+  validator: user.sign_up
+sign_in:
+  path: /
+  controller: user.sign_in
+  method: POST
+  validator: user.sign_in
